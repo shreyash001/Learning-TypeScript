@@ -20,7 +20,11 @@ npm run dev
 tsc app.ts 
 npm init 
 npm install --save -dev lite-server
+
 # Add below in package.json file 
 "scripts"{
-  "start": "lite-server",
+  "start": "lite-server"
 }
+
+# Use this for ts config file
+tsc --init
