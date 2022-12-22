@@ -41,4 +41,6 @@ function countAndPrint<T extends lengthCalculate>(element:T): [T ,string]{
     return [element,description];
 }
 
-console.log(countAndPrint('Hi there !'));
+// console.log(countAndPrint('Hi there !'));
+console.log(['Sports','bike']);
+

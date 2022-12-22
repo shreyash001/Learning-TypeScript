@@ -28,4 +28,5 @@ function countAndPrint(element) {
     }
     return [element, description];
 }
-console.log(countAndPrint('Hi there !'));
+// console.log(countAndPrint('Hi there !'));
+console.log(['Sports', 'bike']);
